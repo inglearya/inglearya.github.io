@@ -124,8 +124,8 @@ p {
 	list-style: none;
 	position: absolute;
 	background-color: rgb(31, 30, 30);
-	width: 80vw;
-	height: 85vh;
+	width: 100vw;
+	height: 100vh;
 	left: 100%;
 	top: 0;
 	display: flex;
@@ -146,7 +146,7 @@ p {
 	text-decoration: none;
 	color: white;
 	text-transform: uppercase;
-	padding: 15px;
+	padding: 20px;
 	display: block;
 }
 #header .nav-list ul a::after {
@@ -168,7 +168,7 @@ p {
 #header .nav-list ul li:hover a {
 	color: crimson;
 }
-#header .hamburger {
+ #header .hamburger {
 	height: 60px;
 	width: 60px;
 	display: inline-block;
@@ -183,7 +183,7 @@ p {
 	transform: scale(0.8);
 	margin-right: 20px;
 }
-#header .hamburger:after {
+ #header .hamburger:after {
 	position: absolute;
 	content: '';
 	height: 100%;
@@ -221,7 +221,7 @@ p {
 }
 #header .hamburger.active .bar::after {
 	top: 0;
-}
+} 
 /* End Header section */
 
 /* Hero Section */
